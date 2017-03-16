@@ -36,7 +36,7 @@
             */
             var gameGuess = Vue.component('game-guess', {
                 template: `<div class="panel">
-                                <input type="text" v-model="answer" placeholder="enter a number between 1 and 3"></input>
+                                <input class="guess-input" type="text" v-model="answer" placeholder="enter a number between 1 and 3"></input>
                                 <button v-on:click="guess">Guess!</button>
                             </div>`,
                 methods: {
